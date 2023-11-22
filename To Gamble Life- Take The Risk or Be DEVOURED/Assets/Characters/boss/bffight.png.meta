@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9775a4ee8b1833d45832d9a77f6ce4f7
+guid: 944a085b6b9d5c247a2f59b435787696
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,22 +70,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mcWalkSheet_0
+      name: bffight_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 64
-        height: 64
+        y: 720
+        width: 320
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26837706eab9ce44c8815fb46e9722ea
-      internalID: 892233166
+      spriteID: 3d4d1e3653483564cbf74be2ea30055d
+      internalID: -1653545536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mcWalkSheet_1
+      name: bffight_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
+        x: 320
+        y: 720
+        width: 320
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,41 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b685ecc729ba08f40bb9da6901e63843
-      internalID: 3725509
+      spriteID: 7e1a62955da0b374ca7d9584b94a4b47
+      internalID: 1415162345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mcWalkSheet_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 873e2b1c9c3132649b40b9f33549fa35
-      internalID: 1382315015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mcWalkSheet_3
+      name: bffight_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 64
-        height: 64
+        y: 540
+        width: 320
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf7ec68409c272945ad82f2890a82802
-      internalID: -317827588
+      spriteID: a419007d0d901ae448f3160358d9bddb
+      internalID: 520738067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mcWalkSheet_4
+      name: bffight_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
+        x: 320
+        y: 540
+        width: 320
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,41 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58ebf11956cd6a1459935e017c455333
-      internalID: -246127094
+      spriteID: 5fb312d2ffc5c444b9e978c652310b33
+      internalID: -2040648212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mcWalkSheet_5
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 536fa02a0149efd4285fb8f34c42efd4
-      internalID: -2069422681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mcWalkSheet_6
+      name: bffight_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 360
+        width: 320
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bb986ba634238a4cb6d350a3858e75f
-      internalID: -751460702
+      spriteID: df61d21761c575b4cae0f69e10bbb3d9
+      internalID: -167069214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mcWalkSheet_7
+      name: bffight_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 320
+        y: 360
+        width: 320
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab37310846bd5024ea34efa08357dae8
-      internalID: -1614349112
+      spriteID: 91c7a86f8cefb7b43b959a2ab1f20ec8
+      internalID: -122753847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mcWalkSheet_8
+      name: bffight_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 0
+        y: 180
+        width: 320
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +250,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5027824fbf7efb948a2fa7947aa1d901
-      internalID: -1935034827
+      spriteID: 6e6d1753685a1db438de43b498c575c0
+      internalID: -567015674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mcWalkSheet_9
+      name: bffight_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 180
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc4efd693c052e439a5ee2bdb28fe2c
+      internalID: 43162911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bffight_8
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 320
+        height: 180
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,8 +292,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e945dc808b0af16409d59c91cb71dc2c
-      internalID: -1715665406
+      spriteID: ede970f6ddc6ca8498e36d36cbb62eb7
+      internalID: 382063714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bffight_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2257014beb889044bc929d92a0286d4
+      internalID: -1229358101
       vertices: []
       indices: 
       edges: []
@@ -343,16 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mcWalkSheet_0: 892233166
-      mcWalkSheet_1: 3725509
-      mcWalkSheet_2: 1382315015
-      mcWalkSheet_3: -317827588
-      mcWalkSheet_4: -246127094
-      mcWalkSheet_5: -2069422681
-      mcWalkSheet_6: -751460702
-      mcWalkSheet_7: -1614349112
-      mcWalkSheet_8: -1935034827
-      mcWalkSheet_9: -1715665406
+      bffight_0: -1653545536
+      bffight_1: 1415162345
+      bffight_2: 520738067
+      bffight_3: -2040648212
+      bffight_4: -167069214
+      bffight_5: -122753847
+      bffight_6: -567015674
+      bffight_7: 43162911
+      bffight_8: 382063714
+      bffight_9: -1229358101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

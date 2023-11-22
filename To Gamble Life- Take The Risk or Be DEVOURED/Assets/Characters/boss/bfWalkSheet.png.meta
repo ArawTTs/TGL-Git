@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 13
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,19 +73,6 @@ TextureImporter:
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3d94b07cf49a9e4f93e472b170632aa
-      internalID: 909018409
+      spriteID: c8c0037549685d5479aaead40290361d
+      internalID: -1412865325
       vertices: []
       indices: 
       edges: []
@@ -158,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91cc0d3c98020f44c9362953c97a6f70
-      internalID: -1296361252
+      spriteID: 453b8a68516fcdc42ba00681b537853a
+      internalID: 634526136
       vertices: []
       indices: 
       edges: []
@@ -179,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 917b6f9f6dd409240950b7b4cc67cbec
-      internalID: -1422961417
+      spriteID: c744c7478e84658478c11e860a862b91
+      internalID: -2081108585
       vertices: []
       indices: 
       edges: []
@@ -200,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c299a43d797625240933ed7bfc6f7457
-      internalID: -1148087556
+      spriteID: 916decb787523734385502de018ff799
+      internalID: -1365823038
       vertices: []
       indices: 
       edges: []
@@ -221,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e37f189d3a19f94bb34304b73e4c6c7
-      internalID: 1920066283
+      spriteID: 372a357a2ffb3b24fb2927ec2dcf1a7d
+      internalID: -1188718316
       vertices: []
       indices: 
       edges: []
@@ -242,35 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9708ea5091549f4c81e699e1a474922
-      internalID: -1733060850
+      spriteID: c5785912f142fa240b5c43d8491b8f9d
+      internalID: -626390289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: bfWalkSheet_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03cbe558ee49cac449cb09f1cb849718
-      internalID: -295112234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bfWalkSheet_7
       rect:
         serializedVersion: 2
         x: 64
@@ -284,8 +250,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 022f73ea4ae49124b86fafb432b496e4
-      internalID: 38944272
+      spriteID: 903e7edadfe884c4b918fcfc9bfcbbdc
+      internalID: -942865298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bfWalkSheet_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ce6734a69e78348904591b6d142794
+      internalID: 1908258350
       vertices: []
       indices: 
       edges: []
@@ -301,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bfWalkSheet_0: 909018409
-      bfWalkSheet_1: -1296361252
-      bfWalkSheet_2: -1422961417
-      bfWalkSheet_3: -1148087556
-      bfWalkSheet_4: 1920066283
-      bfWalkSheet_5: -1733060850
-      bfWalkSheet_6: -295112234
-      bfWalkSheet_7: 38944272
+      bfWalkSheet_0: -1412865325
+      bfWalkSheet_1: 634526136
+      bfWalkSheet_2: -2081108585
+      bfWalkSheet_3: -1365823038
+      bfWalkSheet_4: -1188718316
+      bfWalkSheet_5: -626390289
+      bfWalkSheet_6: -942865298
+      bfWalkSheet_7: 1908258350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

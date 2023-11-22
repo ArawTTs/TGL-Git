@@ -81,19 +81,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -137,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26837706eab9ce44c8815fb46e9722ea
-      internalID: 892233166
+      spriteID: 8b3971ee2a484c74c8a3ae33fedce8c5
+      internalID: 1062303945
       vertices: []
       indices: 
       edges: []
@@ -158,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b685ecc729ba08f40bb9da6901e63843
-      internalID: 3725509
+      spriteID: d7733b2c0d391454085c542bdc7b402a
+      internalID: 816636348
       vertices: []
       indices: 
       edges: []
@@ -179,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 873e2b1c9c3132649b40b9f33549fa35
-      internalID: 1382315015
+      spriteID: 4931b7be54cbd88409138da33d73f000
+      internalID: -330629270
       vertices: []
       indices: 
       edges: []
@@ -200,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf7ec68409c272945ad82f2890a82802
-      internalID: -317827588
+      spriteID: 4a9a7e68fe0e81d48aab06bd97e72900
+      internalID: 214408850
       vertices: []
       indices: 
       edges: []
@@ -221,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58ebf11956cd6a1459935e017c455333
-      internalID: -246127094
+      spriteID: f6d3d0d7ee168b04d8f14b55357596ce
+      internalID: -681179577
       vertices: []
       indices: 
       edges: []
@@ -242,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 536fa02a0149efd4285fb8f34c42efd4
-      internalID: -2069422681
+      spriteID: 80b48d95e2a5aed4a968ad30e6291ddd
+      internalID: -1853390742
       vertices: []
       indices: 
       edges: []
@@ -263,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bb986ba634238a4cb6d350a3858e75f
-      internalID: -751460702
+      spriteID: 87939d065a7820144a21352cb5d7c334
+      internalID: 1370314050
       vertices: []
       indices: 
       edges: []
@@ -284,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab37310846bd5024ea34efa08357dae8
-      internalID: -1614349112
+      spriteID: 179868dfb11382140bf45e5fa5edfc2a
+      internalID: -146760804
       vertices: []
       indices: 
       edges: []
@@ -305,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5027824fbf7efb948a2fa7947aa1d901
-      internalID: -1935034827
+      spriteID: 27adfa8678d6c904b8e20c752552477e
+      internalID: -1728321752
       vertices: []
       indices: 
       edges: []
@@ -326,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e945dc808b0af16409d59c91cb71dc2c
-      internalID: -1715665406
+      spriteID: 44cc1e39e5dcc084eb33ad2b1b96ddf0
+      internalID: -1821922723
       vertices: []
       indices: 
       edges: []
@@ -343,16 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mcWalkSheet_0: 892233166
-      mcWalkSheet_1: 3725509
-      mcWalkSheet_2: 1382315015
-      mcWalkSheet_3: -317827588
-      mcWalkSheet_4: -246127094
-      mcWalkSheet_5: -2069422681
-      mcWalkSheet_6: -751460702
-      mcWalkSheet_7: -1614349112
-      mcWalkSheet_8: -1935034827
-      mcWalkSheet_9: -1715665406
+      mcWalkSheet_0: 1062303945
+      mcWalkSheet_1: 816636348
+      mcWalkSheet_2: -330629270
+      mcWalkSheet_3: 214408850
+      mcWalkSheet_4: -681179577
+      mcWalkSheet_5: -1853390742
+      mcWalkSheet_6: 1370314050
+      mcWalkSheet_7: -146760804
+      mcWalkSheet_8: -1728321752
+      mcWalkSheet_9: -1821922723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
