@@ -4,25 +4,35 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Speed of the movement
+    public float moveSpeed = 5f;
+    public Animator anim;
 
     private Rigidbody2D rb;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component
+        rb = GetComponent<Rigidbody2D>(); 
     }
 
     void Update()
     {
-        // Input handling
+        
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
-        // Calculate movement direction
+        if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1)
+        { 
+            if(Input.GetAxisRaw("Horizontal") > 0)
+                transform.localScale = new Vector3(-1, 1, 1);
+            else
+                transform.localScale = new Vector3(1, 1, 1);
+        }
+
         Vector2 movement = new Vector2(horizontalInput, verticalInput) * moveSpeed * Time.deltaTime;
 
-        // Move the rigidbody
+        
         rb.MovePosition(rb.position + movement);
+
+        anim.SetBool("IsMoving", Mathf.Abs(horizontalInput) > 0f || Mathf.Abs(verticalInput) > 0);
     }
 }
