@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class playermovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -35,4 +36,5 @@ public class playermovement : MonoBehaviour
 
         anim.SetBool("IsMoving", Mathf.Abs(horizontalInput) > 0f || Mathf.Abs(verticalInput) > 0);
     }
+
 }

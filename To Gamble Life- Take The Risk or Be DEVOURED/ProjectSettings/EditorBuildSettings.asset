@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/overeworld/0.front gate.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/overeworld/1.front yard.unity
+    guid: dc5a6dc3594f09d4e878e40005434720
+  - enabled: 1
+    path: Assets/Scenes/overeworld/2.sidefrontyard.unity
+    guid: bbea52172f5fb9546b728bf9e687df31
+  - enabled: 1
+    path: Assets/Scenes/overeworld/3.sidebackyard.unity
+    guid: 299d5839e3eed2c429e33388c27bc925
+  - enabled: 1
+    path: Assets/Scenes/overeworld/4.backyard.unity
+    guid: 6dfde687e022dec448a442bcb2e13595
   m_configObjects: {}
