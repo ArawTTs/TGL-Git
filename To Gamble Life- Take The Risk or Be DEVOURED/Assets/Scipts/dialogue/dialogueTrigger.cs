@@ -2,7 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dialogueTrigger : MonoBehaviour
+public class DialogueTrigger : MonoBehaviour
 {
-    public dialogue dialogue;
+    
+    public Dialogue dialogue;
+    public static bool SpawnDia = false;
+    public GameObject dia;
+
+
+     private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "Player")
+        {
+            dia.SetActive(true);
+            Time.timeScale = 0f;
+            SpawnDia = true;
+            TriggerDialogue();
+        }
+    }
+
+    public void TriggerDialogue()
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+    }
 }
