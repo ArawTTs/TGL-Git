@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class pause : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
+    public string sceneToLoad;
 
     // Update is called once per frame
     void Update()
@@ -38,7 +40,7 @@ public class pause : MonoBehaviour
         GameIsPaused = true;
     }
 
-    public void saveGame()
+    public void LoadnSave()
     {
         Debug.Log("file is now save");
     }
@@ -46,10 +48,17 @@ public class pause : MonoBehaviour
     public void Options()
     {
         Debug.Log("opening options");
+        PauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
     }
 
     public void Quit()
     {
         Debug.Log("heading to main menu");
+        SceneManager.LoadScene(sceneToLoad);
+        PauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
     }
 }
