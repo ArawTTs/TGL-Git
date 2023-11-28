@@ -177,7 +177,7 @@ public class BattleSystem : MonoBehaviour
         if (dice >= playerUnit.currentHP)
         {
             dialogueText.text = "Run";
-            // Run code here
+            SceneManager.LoadScene("menu");
         }
         else
         {

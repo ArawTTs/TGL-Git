@@ -21,9 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/overeworld/3.sidebackyard.unity
     guid: 299d5839e3eed2c429e33388c27bc925
   - enabled: 1
-    path: Assets/Scenes/overeworld/4.backyard.unity
-    guid: 6dfde687e022dec448a442bcb2e13595
-  - enabled: 1
     path: Assets/Scenes/Combat.unity
     guid: 25b292b433974224b8e80b0f63fe8bb5
   - enabled: 1
