@@ -8,13 +8,15 @@ public class pause : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
     public string sceneToLoad;
+    public keybind keybindBool;
+    
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(GameIsPaused)
+            if (GameIsPaused)
             {
                 Resume();
             }
@@ -31,6 +33,8 @@ public class pause : MonoBehaviour
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        keybindBool.KeyBind = true;
+        
     }
 
     void Pause()
@@ -38,6 +42,8 @@ public class pause : MonoBehaviour
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        keybindBool.KeyBind = false;
+
     }
 
     public void LoadnSave()

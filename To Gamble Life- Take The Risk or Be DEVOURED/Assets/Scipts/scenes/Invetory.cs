@@ -6,6 +6,7 @@ public class Invetory : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
+    public keybind keybindBool;
 
     // Update is called once per frame
     void Update()
@@ -30,6 +31,7 @@ public class Invetory : MonoBehaviour
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        
     }
 
     void Pause()
@@ -37,5 +39,6 @@ public class Invetory : MonoBehaviour
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        
     }
 }
